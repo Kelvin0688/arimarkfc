@@ -1,0 +1,32 @@
+.profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card {
+    margin-top: 20px;
+}
+
+.about-header {
+    background-color: #004969; /* Adjust based on your theme */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content h1, .header-content h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb {
+    background: none; /* Makes the breadcrumb background transparent */
+    margin-bottom: 20px;
+}
+
+img.img-fluid {
+    max-height: 300px; /* Adjust based on your needs */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}

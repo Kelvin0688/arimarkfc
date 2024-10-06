@@ -1,0 +1,40 @@
+.contact-section{
+    /* height: 100vh; */
+    align-items: center;
+    align-content: center;
+}
+.contact-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+.contact-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.contact-icon {
+    font-size: 100px;
+}
+.card-text{
+    margin-top: 5%;
+}
+
+.contact-section a{
+    color: #004969;
+}
+
+.card-text > a{
+    text-decoration: none;
+    color: #004969;
+    font-size: 20px;
+    font-weight: 600;
+}

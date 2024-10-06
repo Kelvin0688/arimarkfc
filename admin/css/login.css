@@ -1,0 +1,18 @@
+body{
+    background-color: #004969;
+    height: 100%;
+}
+.btn{
+    background-color: #004969;
+    color: #e6e6e6;
+}
+.btn:hover{
+    background-color: #e6e6e6;
+    color: #004969;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}

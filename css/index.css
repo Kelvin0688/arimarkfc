@@ -1,0 +1,450 @@
+body{
+    /* padding: 0 10% 0 10%; */
+    /* background:#f8f8f8; */
+    /* background-image: url("/public/back.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 300; */
+    font-style: normal;
+    overflow-x: hidden;
+
+}
+/* Add this CSS to style the social icons */
+/* .social-icons {
+  margin-left: 50px; 
+} */
+
+  /* Preloader CSS */
+  #preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f8f9fa; /* Background color of the preloader */
+    z-index: 9999; /* Higher z-index to ensure it's above everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.spinner {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border: 5px solid #004969; /* Border color of the spinner */
+    border-top: 5px solid #ffffff; /* Top border color to create spinning effect */
+    border-radius: 50%; /* Make it a circle */
+    animation: spin 1s linear infinite; /* Animation for spinning */
+    margin-bottom: 20px; /* Spacing below the spinner */
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.preloader-inner {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* Inner background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+.preloader-inner h6 {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+/* end of preloader */
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 20px; /* Add spacing between each social icon */
+  color: #004969; /* Change the color of the social icons */
+  font-size: 24px; /* Adjust the size of the social icons */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change the color on hover */
+}
+
+/* footer socials */
+.footer-icons a {
+  display: inline-block;
+  margin-right: 20px; /* Add spacing between each social icon */
+  color: #ffffff; /* Change the color of the social icons */
+  font-size: 24px; /* Adjust the size of the social icons */
+}
+
+.footer-icons a:hover {
+  color: #001f29; /* Change the color on hover */
+
+}
+
+p{
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* end footer socials */
+
+.registerBtn{
+    color: #e6e6e6;
+    background-color: #004969;
+}
+
+.registerBtn:hover{
+    color: #004969;
+    background-color: #e6e6e6;
+    border: solid 0.5px #004969;
+}
+
+/* CSS */
+.arimark-header {
+  position: relative; /* Added for positioning the video and content */
+  height: 500px; /* Adjust as needed */
+  color: #fdfdfd;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Added to hide overflowing video */
+  /* background: url('../public/10.jpg');   */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Added to center the background image */
+}
+
+.arimark-header .container {
+  position: relative;
+  z-index: 1;
+}
+
+.arimark-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Added overlay to improve text readability */
+  z-index: 0;
+}
+
+.arimark-header .header-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* small screen */
+@media (max-width: 768px) {
+  .arimark-header {
+    position: relative; /* Added for positioning the video and content */
+    height: 300px; /* Adjust as needed */
+  }
+  .arimark-header .header-content h1{
+   font-size: 18px;
+  }
+  .arimark-header .header-content h5{
+   font-size: 15px;
+  }
+}
+
+
+/* picture in owl carousel */
+.owl-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+/* .prev-slide, .next-slide {
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+} */
+/* .prev-slide{
+  left: 2%;
+}
+.next-slide {
+  right: 2%;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  padding: 15px;
+  border-radius: 30%;
+  }
+  .nav-btn:hover{
+    background-color: #cff1ff;
+  } */
+
+  
+
+
+
+/* about scetion */
+
+
+.about-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  .about-heading {
+    margin-bottom: 40px;
+    color: #004969;
+  }
+  .lead{
+    font-size: 24px;
+  }
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 20px 0;
+      background-color: #f8f9fa;
+    }
+    .about-section p {
+      font-size: 14px;
+    }
+    .about-heading {
+      font-size: 15px;
+      padding: 20px 0;
+      margin-bottom: 2px;
+      
+    }
+    .off-display{
+      display: none;
+    }
+    .lead{
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+.more-info{
+    text-decoration: none;
+    color:#004969;
+    background-color: #e6e6e6;
+    padding: 15px;
+    }
+    .more-info:hover{
+        color: #e6e6e6;
+        background-color: #004969;
+        /* border: solid 0.5px #004969; */
+        /* border-radius: 10px; */
+        transition: 0.5s ease;
+    }
+    .more-info:focus{
+        box-shadow: 0 0 0 0.25rem rgba(0, 73, 105, 0.5);
+      }
+
+      .image-container {
+        position: relative;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .image-container::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      
+      .image-container img {
+        position: relative;
+        z-index: 1;
+        /* border-radius: 10px; */
+        max-width: 100%; /* Adjust this value to control image size */
+        max-height: 100%; /* Adjust this value to control image size */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+  /* player section */
+  /* .players-div{
+    padding: 1% 0 5% 0;
+  }
+  .player-card {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #004969;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: #ffffff;
+  }
+  .player-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .player-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .player-card-body {
+    padding: 20px;
+  }
+  .player-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .player-info {
+    color: #e6e6e6;
+    margin-bottom: 1%;
+  } */
+
+/* fun moments and events section */
+.carousel-container {
+  flex: 1;
+  margin: 0 10px;
+}
+.carousel-item img {
+  max-height: 400px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+  /* .event-section {
+    padding: 80px 0;
+  } */
+  .event-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border: none;
+    cursor: pointer;
+
+    
+  }
+  .event-card a{
+    text-decoration: none;
+  }
+  .event-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .event-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .event-card-body {
+    padding: 20px;
+  }
+  .event-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #004969;
+  }
+  .event-info {
+    color: #6c757d;
+  }
+
+  #events-header {
+    background-image: url('./public/event-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#events-header img {
+    border: 5px solid #ffffff; /* Adds a white border around the image */
+}
+
+  
+/* sponsor section */
+.sponsor-section {
+  display: flex;
+  flex-direction: column;
+}
+.grayscale-img {
+  filter: grayscale(100%); 
+  transition: filter 0.3s; 
+}
+
+.sponsor:hover .grayscale-img {
+  filter: grayscale(0%); 
+}
+
+@media (max-width: 576px) {
+  .sponsor-section {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .sponsor-section .col-sm-4 {
+      flex: 1;
+      max-width: 33%;
+  }
+}
+
+/* owl carousel */
+  .media-29101 {
+    text-align: center;
+    margin: 20px;
+  }
+  .media-29101 img {
+    cursor: pointer;
+  }
+
+
+/* footer */
+.footer {
+    background-color: #004969;
+    color: #e6e6e6;
+    padding: 40px 0;
+  }
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .footer-links li a:hover {
+    color: #ccc;
+  }
+  .page-up-btn {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color:#004969;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.page-up-btn:hover {
+    background-color: #9b9a9a;
+}
+
